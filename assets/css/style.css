@@ -52,6 +52,7 @@ header .line {
   font-weight: bold;
   padding-bottom: 20px;
 }
+
 .header--area {
   display: flex;
   justify-content: space-between;
@@ -90,6 +91,7 @@ header .line {
   border-radius: 10rem;
   cursor: not-allowed;
 }
+
 .header-search button {
   border: 0;
   background: transparent;
@@ -238,6 +240,7 @@ header .line {
   grid-template-columns: 500px 1fr;
   background-color: #e8e9ee;
 }
+
 .area4-content {
   padding: 80px;
 }
@@ -281,6 +284,7 @@ header .line {
     padding-right: 20px;
   }
 }
+
 @media (min-width: 321px) and (max-width: 768px) {
   .space {
     padding-left: 20px;
@@ -311,7 +315,7 @@ header .line {
   }
 
   .h1 {
-    font-size: 50px;
+    font-size: 25px;
     line-height: 50px;
   }
 
@@ -334,6 +338,7 @@ header .line {
   .area1-text {
     padding: 40px;
   }
+
   .area2 {
     grid-template-columns: 1fr;
   }
@@ -363,6 +368,7 @@ header .line {
     padding: 20px;
   }
 }
+
 /* Navbar
 .navbar-brand {
     font: 32px Viga;

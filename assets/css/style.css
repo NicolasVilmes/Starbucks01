@@ -316,19 +316,21 @@ header .line {
 
   .h1 {
     font-size: 20px;
-    line-height: 50px;
+    line-height: 20px;
   }
 
   .banner span {
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .banner-images {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border: 3px solid #00704a;
-    border-radius: 50%;
+    border-radius: 40%;
     margin-right: 10px;
+    flex: 35%;
+
   }
 
   .area1 {

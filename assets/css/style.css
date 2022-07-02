@@ -8,7 +8,7 @@ body {
 }
 
 header .line {
-  background-color: #00704a;
+  background-color: #d0e7e0;
   height: 10px;
 }
 
@@ -77,19 +77,22 @@ header .line {
 }
 
 .header-search input {
-  background: #e8e9ee00;
+
+  background: #00905b;
   border-radius: 50rem;
   font-size: 16px;
   padding: 9px 29px;
-  border: 1px solid (rgb(17, 17, 17));
+  /* border: 1px solid (rgb(17, 17, 17)); */
   outline: 0;
   width: 100%;
   max-width: 220px;
 }
 
+.header-search ::placeholder {
+  color: #dbebe6a6;
+}
 .header-search :hover {
-  color: #00704a;
-  background-color: #0c8f631c;
+  background-color: #d4e4df34;
   border-radius: 10rem;
   cursor: not-allowed;
 }

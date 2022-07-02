@@ -24,7 +24,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  background: #23232e;
+  background: #00905b;
   height: 8vh;
 }
 
@@ -67,7 +67,7 @@ main {
     right: 0;
     width: 50vw;
     height: 92vh;
-    background: #e0e0e00e;
+    background: #ca22220e;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;

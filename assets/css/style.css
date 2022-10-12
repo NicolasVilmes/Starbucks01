@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
 }
-html,
 body {
   font-family: "League Spartan", sans-serif;
   font-family: "Oswald", sans-serif;
@@ -297,22 +296,103 @@ header .line {
 }
 
 @media (min-width: 321px) and (max-width: 768px) {
+
+  .bar{
+    width: 10rem;
+    height: 10px;
+  }
+
+  .intro{
+    margin-top: -4rem;
+    font-size: 3rem;
+  }
+
+  .space span{
+    font-size: 1rem;
+    
+  }
+
+  .time{
+    margin-left: 5rem;
+  }
+
   .space {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .banner-images img{
+    height: 120px;
+    width: auto;
   }
 
   .area1 {
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 3fr;
   }
 
+  .h2 {
+    margin: 10px;
+    font-size: 25px;
+  }
+
+ 
+
+  .area1-text span {
+    font-size: 15px;
+    line-height: 15px;
+    }
+
   .area2 {
-    grid-template-columns: 2fr 3fr;
+    margin-left: -50px;
+    grid-template-columns: 2fr;
+  }
+  .h2 {
+    margin: 10px;
+    font-size: 25px;
+  }
+
+  .area2-text span {
+    font-size: 15px;
+    line-height: 15px;
   }
 
   .area3 {
-    grid-template-columns: 3fr 2fr;
+    margin-left: -50px;
+    grid-template-columns: 3fr ;
   }
+
+  .h2 {
+    margin: 10px;
+    font-size: 25px;
+  }
+
+  .area3-text{
+    padding: 80px, 40px;
+  }
+
+  .area3-text span {
+    font-size: 15px;
+    line-height: 15px;
+  }
+
+  .area4{
+    grid-template-columns: 1fr;
+  }
+  
+  .h2 {
+    margin: 10px;
+    font-size: 25px;
+  }
+  
+  .area4-text {
+    padding: 80px, 40px;
+  }
+  
+  .area4-text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  
 }
 
 @media (max-width: 320px) {
@@ -386,7 +466,7 @@ header .line {
   }
 }
 
-/* Navbar
+Navbar
 .navbar-brand {
     font: 32px Viga;
 }
@@ -422,4 +502,4 @@ header .line {
 
 
 
-} */
+} 

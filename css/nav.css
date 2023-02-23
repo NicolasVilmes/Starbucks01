@@ -57,6 +57,7 @@ main {
   transition: 0.3s;
 }
 
+
 @media (max-width: 999px) {
   body {
     overflow-x: hidden;
@@ -88,6 +89,7 @@ main {
 
 .mobile-menu {
   display: block;
+
 }
 }
 
